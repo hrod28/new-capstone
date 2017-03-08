@@ -1,0 +1,219 @@
+/*----- Body -----*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  padding-top: 75px;
+  background-repeat: repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h4, p {
+  margin: 2px 0 2px 0;
+}
+
+th, td {
+  padding: 0px !important;
+  height: 0px !important;
+  font-size: 15px !important;
+  overflow: scroll !important;
+  text-overflow: inherit !important;
+}
+/*----- Navigation Bar -----*/
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  height: 75px;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.25);
+  padding: 16px 10px 0 10px;
+  transition: .5s;
+  border-bottom: 5px solid rgba(144, 193, 91, .95);
+}
+
+.navWrapper {
+  text-align: right;
+}
+
+.navButton {
+  margin: 0 10px 0 10px;
+  background-color: white;
+}
+
+/*----- Posts -----*/
+
+.rightAlign {
+  text-align: right;
+  padding: 0 0 10px 0 !important;
+}
+
+.inlineChip {
+  display: inline !important;
+  padding: 5px !important;
+  margin: 5px !important;
+  text-transform: capitalize;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.postsContainer {
+  max-width: 960px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.uiCard {
+  margin: 20px;
+  transition: .5s
+}
+.uiCard:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+.cardBody {
+  /*padding-top: 0px !important;*/
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 10px 10px 10px;
+}
+
+/*----- Landing page -----*/
+
+.center{
+  display: flex;
+  direction: row;
+  justify-content: center
+}
+
+.carousel {
+  margin-bottom: 2rem;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.landingCarouselHeader {
+  font-size: 10rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+.primaryLandingCarouselParagraph {
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+.secondarylandingCarouselParagraph {
+  text-shadow: 2px 2px 5px black;
+}
+
+footer {
+  background-color: #545A5E;
+  height: 10rem;
+}
+
+.footerText {
+  padding-left: 2rem;
+  transform: translateY(155%);
+  color: white;
+  font-size: 1.75rem;
+}
+
+img{
+  width: 100%;
+}
+
+/*----- Profile Form -----*/
+
+.marginRight {
+  margin-right: 50px;
+}
+
+.profileAbout {
+  margin-left: -4rem;
+}
+
+.profileContainer{
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profileSubmitButton{
+  text-align: center;
+  padding-bottom: 15px;
+  margin-left: -2rem;
+}
+
+.profileFormChecklist {
+  margin-left: 0;
+}
+
+/*----- New Post Form -----*/
+
+.newPostCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.newPostPadding {
+  display: flex;
+  padding-left: 15px;
+}
+
+h3{
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.postSubmitButton {
+  text-align: center;
+  margin-left: 40%;
+  backgroundColor: red;
+}
+
+.newPostContainer {
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.postFormTitle {
+  margin-left: 50%;
+}
+
+.postFormDescription {
+  margin-left: 50%;
+}
+
+.postFormZip {
+  margin-left: 22%;
+}
+
+.postFormBudget {
+  margin-left: 17%;
+}
+
+.skillsText {
+  padding-bottom: 5%;
+}
+
+.logo {
+  display: inline;
+  float: left;
+  height: 60px;
+  width: auto;
+  margin-top: -10px;
+}
+/*
+@media only screen and (max-width: 400px) {
+body { font-size:70%;}*/
