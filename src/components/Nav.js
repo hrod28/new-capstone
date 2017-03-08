@@ -10,7 +10,7 @@ import AppBar from 'material-ui/AppBar';
 const Nav = React.createClass({
   render: function(){
     const buttonStyle = {
-      backgroundColor: 'transparent',
+      // backgroundColor: 'transparent',
       color: 'black'
     };
     return(
@@ -34,7 +34,7 @@ const Nav = React.createClass({
           className="navButton"
              href="/newPost"
              label="New Project"
-             backgroundColor="#red"
+             backgroundColor="red"
            />
            { " " }
 
